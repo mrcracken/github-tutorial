@@ -3,10 +3,10 @@
 function sayHelloOrWorld(){
 	var userInput = document.getElementById('userInput').value;
 	if (userInput == "Hello"){
-		alert("World");
+		alert("World!");
 	}
 	else {
-		if (userInput == "World!"){
+		if (userInput == "World"){
 			alert("Hello!");
 		}
 		else{
